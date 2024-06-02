@@ -14,7 +14,7 @@
  * @license For open source use: AGPLv3
  * @license For commercial use or closed source, contact us at license.mirotalk@gmail.com or purchase directly from CodeCanyon
  * @license CodeCanyon: https://codecanyon.net/item/mirotalk-p2p-webrtc-realtime-video-conferences/38376661
- * @author  Miroslav Pejic - miroslav.pejic.85@gmail.com
+ * @author  Miroslav Pejic - prince@cactuscreatives.com
  * @version 1.3.32
  *
  */
@@ -159,7 +159,7 @@ const buttons = {
         showFileShareBtn: true,
         showDocumentPipBtn: showDocumentPipBtn,
         showMySettingsBtn: true,
-        showAboutBtn: true, // Please keep me always true, Thank you!
+        showAboutBtn: false, // Please keep me always true, Thank you!
     },
     chat: {
         showMaxBtn: true,
@@ -9839,32 +9839,25 @@ function showAbout() {
         background: swBg,
         position: 'center',
         title: '<strong>WebRTC P2P</strong>',
-        imageAlt: 'mirotalk-about',
+        imageAlt: 'CactusVc-about',
         imageUrl: images.about,
         customClass: { image: 'img-about' },
         html: `
         <br/>
         <div id="about">
-            <button 
-                id="support-button" 
-                data-umami-event="Support button" 
-                class="pulsate" 
-                onclick="window.open('https://codecanyon.net/user/miroslavpejic85')">
-                <i class="${className.heart}" ></i>&nbsp;Support
-            </button>
             <br /><br />
             Author:<a 
                 id="linkedin-button" 
                 data-umami-event="Linkedin button" 
-                href="https://www.linkedin.com/in/miroslav-pejic-976a07101/" target="_blank"> 
-                Miroslav Pejic
+                href="https://cactuscreatives.com" target="_blank"> 
+                Cactus Creatives
             </a>
             <br /><br />
             Email:<a 
                 id="email-button" 
                 data-umami-event="Email button" 
-                href="mailto:miroslav.pejic.85@gmail.com?subject=MiroTalk P2P info"> 
-                miroslav.pejic.85@gmail.com
+                href="mailto:prince@cactuscreatives.com?subject=CactusVC P2P info"> 
+                prince@cactuscreatives.com
             </a>
         </div>
         `,
